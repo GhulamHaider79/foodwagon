@@ -1,0 +1,44 @@
+..container-xxl{
+    /*background-color: aqua;*/
+}
+.my-class-navbar,#mera-navbar{
+    background-color: #ffffff; !important
+}
+.middel-nav>p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.my-btn-nav-search{
+    width: 180px;
+    height: 18px;
+    display: flex;
+    gap: 8px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    color: #424242;
+    border: none;
+}
+.my-btn-nav-login{
+    width: 118px;
+    height: 46px;
+    padding: 14px, 24px, 14px, 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+
+    box-shadow: 0px 5px 10px 0px #FFAE0042;
+    background-color: #fff;
+    text-transform: capitalize;
+    color: #FFB800;
+    border: none; !important
+}
+.AreYouStarving{
+    height: 661px;
+    background-color: #FFB800;
+
+}
