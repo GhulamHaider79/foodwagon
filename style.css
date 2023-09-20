@@ -1,15 +1,20 @@
-..container-xxl{
+..container-xxl {
     /*background-color: aqua;*/
 }
-.my-class-navbar,#mera-navbar{
-    background-color: #ffffff; !important
+
+.my-class-navbar,
+#mera-navbar {
+    background-color: #ffffff;
+    !important
 }
-.middel-nav>p{
+
+.middel-nav>p {
     display: flex;
     align-items: center;
     margin-bottom: 0;
 }
-.my-btn-nav-search{
+
+.my-btn-nav-search {
     width: 180px;
     height: 18px;
     display: flex;
@@ -21,7 +26,8 @@
     color: #424242;
     border: none;
 }
-.my-btn-nav-login{
+
+.my-btn-nav-login {
     width: 118px;
     height: 46px;
     padding: 14px, 24px, 14px, 24px;
@@ -35,10 +41,449 @@
     background-color: #fff;
     text-transform: capitalize;
     color: #FFB800;
-    border: none; !important
+    border: none;
+    !important
 }
-.AreYouStarving{
+
+@media screen and (max-width: 1120px) {
+    .navbar-brand>img {
+        width: 280px;
+    }
+
+    .my-btn-nav-search {
+        width: 150px;
+        height: 18px;
+        display: flex;
+        gap: 6px;
+        font-family: Source Sans Pro;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .my-btn-nav-login {
+        width: 110px;
+        height: 46px;
+        gap: 8px;
+        box-shadow: 0px 20px 40px 0px #FFAE004A;
+        border: none;
+        !important
+    }
+
+    .middel-nav>p {
+        font-size: 13px;
+    }
+
+    .middel-nav>p>img {
+        width: 16px;
+    }
+}
+
+@media screen and (max-width: 986px) {
+    .my-class-navbar {
+        display: flex;
+        !important flex-wrap: nowrap;
+        !important
+    }
+
+    .navbar-brand>img {
+        width: 280px;
+    }
+
+    .my-btn-nav-search {
+        width: 130px;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .my-btn-nav-login {
+        width: 100px;
+        gap: 6px;
+    }
+
+    .middel-nav>p {
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .middel-nav>p>img {
+        width: 14px;
+    }
+
+    .my-btn-nav-search>img {
+        width: 16px;
+    }
+
+    .my-btn-nav-login>img {
+        width: 14px;
+    }
+}
+
+.areYouStarving {
     height: 661px;
     background-color: #FFB800;
+    position: relative;
+}
 
+.areYouStarving-heading-div {
+    width: 856px;
+    height: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.areYouStarving-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.areYouStarving-h1>h1 {
+    font-size: 88px;
+    color: #ffffff;
+    line-height: 88px;
+    margin-top: 10rem;
+}
+
+.areYouStarving-h1>p {
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    width: 750px;
+    height: 38px;
+    padding: 26px;
+    background-color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 3rem;
+}
+
+.form-btnOne {
+    width: 150px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    padding: 18px 24px;
+    border: 0;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.10);
+}
+.form-btnTow{
+    width: 150px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    padding: 18px 24px;
+    border: 0;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 700px;
+    background-color: #fff;
+}
+.areYouStarving-form {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    height: 100px;
+    padding: 20px;
+    gap: 8px;
+    background-color: #ffffff;
+    border-top: 1px solid rgb(214, 203, 203);
+    border-radius: 0px 0px 8px 8px;
+}
+.areYouStarving-form>input{
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 25.2px;
+ background-image: url(./img/icon\ location.png);
+ background-repeat: no-repeat;
+ background-position: left;
+ background-position-x: 20px;
+ text-indent: 50px;
+ border-radius: 8px;
+ border: 01px solid rgb(181, 172, 172);
+}
+.areYouStarving-form>button{
+    width: 210px;
+    height: 60px;
+    display: flex;
+padding: 21px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+}
+.areYouStarving-image-div {
+    width: 50%;
+    display: flex;
+}
+
+.areYouStarving-image-div>img {
+    width: 604px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+}
+@media screen and (max-width: 1275px) {
+    .areYouStarving-image-div>img {
+        width: 530px;
+    }
+}
+@media screen and (max-width: 1205px) {
+    .areYouStarving-heading-div {
+        width: 600px;
+    }
+    .areYouStarving-h1>h1 {
+        font-size: 60px;
+    }
+    
+    .areYouStarving-h1>p {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    .form-section {
+        width: 550px;
+    }
+    .areYouStarving-form {
+        width:550px;
+    }
+    .areYouStarving-form>input{
+        width: 350px;
+    }
+    .areYouStarving-form>button{
+        width: 200px;
+    padding: 21px 20px;
+    }
+    .areYouStarving-image-div {
+        width: 50%;
+        display: flex;
+    }
+    
+    .areYouStarving-image-div>img {
+        width: 604px;
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+    }
+}
+@media screen and (max-width: 1065px) {
+    .areYouStarving-image-div>img {
+        width: 480px;
+    }
+    .areYouStarving {
+        height: 580px;
+    }
+}
+@media screen and (min-width: 855px) and (max-width: 970px) {
+    .areYouStarving {
+        height: 580px;
+    }
+    .areYouStarving-heading-div {
+        width: 500px;
+    }
+    .areYouStarving-h1>h1 {
+        font-size: 45px;
+    }
+    
+    .areYouStarving-h1>p {
+        font-size: 16px;
+        line-height: 60px;
+    }
+    
+    .form-section {
+        width: 460px;
+    }
+    .areYouStarving-form {
+        width:460px;
+    }
+    .areYouStarving-form>input{
+        width: 280px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .areYouStarving-form>button{
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    padding: 21px 16px;
+    }
+    .areYouStarving-image-div>img {
+        width: 465px;
+    }
+    .areYouStarving {
+        height: 580px;
+    }
+}
+@media screen and (min-width: 855px) and (max-width: 970px) {
+    .areYouStarving {
+        height: 500px;
+    }
+    .areYouStarving-heading-div {
+        width: 500px;
+    }
+    .areYouStarving-h1>h1 {
+        font-size: 38px;
+    }
+    
+    .areYouStarving-h1>p {
+        font-size: 15px;
+        line-height: 60px;
+        margin-top: 0.2rem;
+    }
+    
+    .form-section {
+        width: 425px;
+        margin-top: 0.2rem;
+    }
+    .areYouStarving-form {
+        width:425px;
+    }
+    .areYouStarving-form>input{
+        width: 240px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .areYouStarving-form>button{
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    padding: 21px 16px;
+    }
+    .areYouStarving-image-div>img {
+        width: 420px;
+    }
+    .areYouStarving {
+        height: 540px;
+    }
+}
+@media screen and (max-width: 854px) {
+    .areYouStarving {
+        height: 450px;
+    }
+    .areYouStarving-heading-div {
+        width: 450px;
+    }
+    .areYouStarving-h1>h1 {
+        font-size: 36px;
+    }
+    
+    .areYouStarving-h1>p {
+        font-size: 15px;
+        line-height: 60px;
+        margin-top: 0.2rem;
+    }
+    
+    .form-section {
+        width: 410px;
+        margin-top: 0.2rem;
+    }
+    .areYouStarving-form {
+        width:410px;
+    }
+    .areYouStarving-form>input{
+        width: 240px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .areYouStarving-form>button{
+        width: 130px;
+        height: 50px;
+        gap: 2.5px;
+        font-size: 16px;
+    padding: 21px 16px;
+    }
+    .areYouStarving-image-div>img {
+        width: 390px;
+    }
+    .areYouStarving {
+        height: 520px;
+    }
+}
+.FoodDiscuontSection{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    align-items: center;
+}
+.FoodDiscuontSection-1{
+    width: 300px;
+    height: 300px;
+}
+.tag1{
+    height: 300px;
+    background-image: url(./img/Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+.tag15{
+    width: 110px;
+    background-color: #FFB30E;
+    border-radius: 0px 32px 0px 20px;
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.tag15>h1{
+    font-size: 2.5rem;
+    font-weight: 900px;
+}
+.tag15>p{
+    font-size: 1.5rem;
+    line-height: 22px;
+    padding-top: 4px;
+}
+.tag2{
+    height: 300px;
+    background-image: url(./img/Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+.tag3{
+    height: 300px;
+    background-image: url(./img/Image\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+.tag4{
+    height: 300px;
+    background-image: url(./img/Image\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+}
+.FoodDiscuontSection-1>h2{
+    margin-top: 2rem;
+}
+.FoodDiscuontSection-1>h5{
+    margin-top: 2rem;
+    display: flex;
+padding: 8px 16px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: rgba(241, 114, 40, 0.20);
 }
