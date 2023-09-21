@@ -1,6 +1,6 @@
 .my-class-navbar,
 #mera-navbar {
-    background-color: #ffffff; 
+    background-color: #ffffff;
 }
 
 .middel-nav>p {
@@ -38,15 +38,18 @@
     color: #FFB800;
     border: none;
 }
+
 @media screen and (min-width:1121px) {
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
     }
 }
+
 @media screen and (max-width: 1120px) {
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
     }
+
     .navbar-brand>img {
         width: 280px;
     }
@@ -79,13 +82,14 @@
 }
 
 @media screen and (max-width: 986px) {
-    .mobile-navbar{
+    .mobile-navbar {
         display: none;
     }
+
     .my-class-navbar {
         display: flex;
-         flex-wrap: nowrap;
-         }
+        flex-wrap: nowrap;
+    }
 
     .navbar-brand>img {
         width: 280px;
@@ -119,11 +123,13 @@
         width: 14px;
     }
 }
+
 @media screen and (max-width: 426px) {
-    .mobile-navbar{
+    .mobile-navbar {
         display: flex;
     }
-    #mera-navbar{
+
+    #mera-navbar {
         display: none;
     }
 }
@@ -187,7 +193,8 @@
     border-radius: 8px;
     background: rgba(241, 114, 40, 0.10);
 }
-.form-btnTow{
+
+.form-btnTow {
     width: 150px;
     height: 18px;
     display: flex;
@@ -199,6 +206,7 @@
     font-weight: 700px;
     background-color: #fff;
 }
+
 .areYouStarving-form {
     display: flex;
     justify-content: center;
@@ -210,30 +218,33 @@
     border-top: 1px solid rgb(214, 203, 203);
     border-radius: 0px 0px 8px 8px;
 }
-.areYouStarving-form>input{
+
+.areYouStarving-form>input {
     width: 450px;
     height: 60px;
     font-size: 25px;
     line-height: 25.2px;
- background-image: url(./img/icon\ location.png);
- background-repeat: no-repeat;
- background-position: left;
- background-position-x: 20px;
- text-indent: 50px;
- border-radius: 8px;
- border: 01px solid rgb(181, 172, 172);
+    background-image: url(./img/icon\ location.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 20px;
+    text-indent: 50px;
+    border-radius: 8px;
+    border: 01px solid rgb(181, 172, 172);
 }
-.areYouStarving-form>button{
+
+.areYouStarving-form>button {
     width: 210px;
     height: 60px;
     display: flex;
-padding: 21px 48px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 8px;
-background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+    padding: 21px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
 }
+
 .areYouStarving-image-div {
     width: 50%;
     display: flex;
@@ -245,42 +256,49 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     bottom: 0;
     right: 20px;
 }
+
 @media screen and (max-width: 1275px) {
     .areYouStarving-image-div>img {
         width: 530px;
     }
 }
+
 @media screen and (max-width: 1205px) {
     .areYouStarving-heading-div {
         width: 600px;
     }
+
     .areYouStarving-h1>h1 {
         font-size: 60px;
     }
-    
+
     .areYouStarving-h1>p {
         font-size: 20px;
         line-height: 60px;
     }
-    
+
     .form-section {
         width: 550px;
     }
+
     .areYouStarving-form {
-        width:550px;
+        width: 550px;
     }
-    .areYouStarving-form>input{
+
+    .areYouStarving-form>input {
         width: 350px;
     }
-    .areYouStarving-form>button{
+
+    .areYouStarving-form>button {
         width: 200px;
-    padding: 21px 20px;
+        padding: 21px 20px;
     }
+
     .areYouStarving-image-div {
         width: 50%;
         display: flex;
     }
-    
+
     .areYouStarving-image-div>img {
         width: 604px;
         position: absolute;
@@ -288,188 +306,224 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
         right: 20px;
     }
 }
+
 @media screen and (max-width: 1065px) {
     .areYouStarving-image-div>img {
         width: 480px;
     }
+
     .areYouStarving {
         height: 580px;
     }
 }
+
 @media screen and (min-width: 855px) and (max-width: 970px) {
     .areYouStarving {
         height: 580px;
     }
+
     .areYouStarving-heading-div {
         width: 500px;
     }
+
     .areYouStarving-h1>h1 {
         font-size: 45px;
     }
-    
+
     .areYouStarving-h1>p {
         font-size: 16px;
         line-height: 60px;
     }
-    
+
     .form-section {
         width: 460px;
     }
+
     .areYouStarving-form {
-        width:460px;
+        width: 460px;
     }
-    .areYouStarving-form>input{
+
+    .areYouStarving-form>input {
         width: 280px;
         height: 50px;
         font-size: 18px;
     }
-    .areYouStarving-form>button{
+
+    .areYouStarving-form>button {
         width: 160px;
         height: 50px;
         font-size: 18px;
-    padding: 21px 16px;
+        padding: 21px 16px;
     }
+
     .areYouStarving-image-div>img {
         width: 465px;
     }
+
     .areYouStarving {
         height: 580px;
     }
 }
+
 @media screen and (min-width: 855px) and (max-width: 970px) {
     .areYouStarving {
         height: 500px;
     }
+
     .areYouStarving-heading-div {
         width: 500px;
     }
+
     .areYouStarving-h1>h1 {
         font-size: 38px;
     }
-    
+
     .areYouStarving-h1>p {
         font-size: 15px;
         line-height: 60px;
         margin-top: 0.2rem;
     }
-    
+
     .form-section {
         width: 425px;
         margin-top: 0.2rem;
     }
+
     .areYouStarving-form {
-        width:425px;
+        width: 425px;
     }
-    .areYouStarving-form>input{
+
+    .areYouStarving-form>input {
         width: 240px;
         height: 50px;
         font-size: 18px;
     }
-    .areYouStarving-form>button{
+
+    .areYouStarving-form>button {
         width: 150px;
         height: 50px;
         font-size: 18px;
-    padding: 21px 16px;
+        padding: 21px 16px;
     }
+
     .areYouStarving-image-div>img {
         width: 420px;
     }
+
     .areYouStarving {
         height: 540px;
     }
 }
+
 @media screen and (max-width: 854px) {
     .areYouStarving {
         height: 450px;
     }
+
     .areYouStarving-heading-div {
         width: 450px;
     }
+
     .areYouStarving-h1>h1 {
         font-size: 36px;
     }
-    
+
     .areYouStarving-h1>p {
         font-size: 15px;
         line-height: 60px;
         margin-top: 0.2rem;
     }
-    
+
     .form-section {
         width: 410px;
         margin-top: 0.2rem;
     }
+
     .areYouStarving-form {
-        width:410px;
+        width: 410px;
     }
-    .areYouStarving-form>input{
+
+    .areYouStarving-form>input {
         width: 240px;
         height: 50px;
         font-size: 18px;
     }
-    .areYouStarving-form>button{
+
+    .areYouStarving-form>button {
         width: 130px;
         height: 50px;
         gap: 2.5px;
         font-size: 16px;
-    padding: 21px 16px;
+        padding: 21px 16px;
     }
+
     .areYouStarving-image-div>img {
         width: 390px;
     }
+
     .areYouStarving {
         height: 520px;
     }
 }
+
 @media screen and (max-width: 426px) {
-    .areYouStarving{
+    .areYouStarving {
         height: 680px;
         width: 100%;
     }
-    .areYouStarving-heading-div{
+
+    .areYouStarving-heading-div {
         width: 100%;
     }
-    #findmeals-pera{
+
+    #findmeals-pera {
         display: flex;
         flex-direction: column;
         line-height: 20px;
     }
+
     .form-section {
         width: 320px;
         margin-top: 0.2rem;
     }
+
     .areYouStarving-form {
-        width:320px;
-        
+        width: 320px;
+
     }
-    .areYouStarving-form>input{
+
+    .areYouStarving-form>input {
         width: 160px;
         height: 50px;
         font-size: 14px;
         background-position-x: 10px;
         text-indent: 25px;
     }
-    .areYouStarving-form>button{
+
+    .areYouStarving-form>button {
         width: 135px;
         height: 50px;
         gap: 2px;
         font-size: 14px;
-    padding: 21px 14px;
+        padding: 21px 14px;
     }
-    
+
 }
-.FoodDiscuontSection{
+
+.FoodDiscuontSection {
     height: 500px;
     display: flex;
     justify-content: center;
     gap: 0.6rem;
     align-items: center;
 }
-.FoodDiscuontSection-1{
+
+.FoodDiscuontSection-1 {
     width: 300px;
     height: 300px;
 }
-.tag1{
+
+.tag1 {
     height: 300px;
     background-image: url(./img/Image\ \(1\).png);
     background-repeat: no-repeat;
@@ -477,7 +531,8 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     position: relative;
     border-radius: 20px 20px 20px 20px;
 }
-.tag15{
+
+.tag15 {
     width: 110px;
     background-color: #FFB30E;
     border-radius: 0px 32px 0px 20px;
@@ -489,16 +544,19 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     bottom: 0;
     left: 0;
 }
-.tag15>h1{
+
+.tag15>h1 {
     font-size: 2.5rem;
     font-weight: 900px;
 }
-.tag15>p{
+
+.tag15>p {
     font-size: 1.5rem;
     line-height: 22px;
     padding-top: 4px;
 }
-.tag2{
+
+.tag2 {
     height: 300px;
     background-image: url(./img/Image\ \(2\).png);
     background-repeat: no-repeat;
@@ -506,7 +564,8 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     position: relative;
     border-radius: 20px 20px 20px 20px;
 }
-.tag3{
+
+.tag3 {
     height: 300px;
     background-image: url(./img/Image\ \(4\).png);
     background-repeat: no-repeat;
@@ -514,7 +573,8 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     position: relative;
     border-radius: 20px 20px 20px 20px;
 }
-.tag4{
+
+.tag4 {
     height: 300px;
     background-image: url(./img/Image\ \(5\).png);
     background-repeat: no-repeat;
@@ -522,50 +582,58 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
     position: relative;
     border-radius: 20px 20px 20px 20px;
 }
-.FoodDiscuontSection-1>h2{
+
+.FoodDiscuontSection-1>h2 {
     margin-top: 2rem;
 }
-.FoodDiscuontSection-1>h5{
+
+.FoodDiscuontSection-1>h5 {
     margin-top: 2rem;
     display: flex;
-padding: 8px 16px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 8px;
-background: rgba(241, 114, 40, 0.20);
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(241, 114, 40, 0.20);
 }
+
 @media screen and (max-width: 426px) {
-    .FoodDiscuontSection{
-    height: 1800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10rem;
-    align-items: center;
+    .FoodDiscuontSection {
+        height: 1800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10rem;
+        align-items: center;
+    }
 }
-}
-.howDoesItwork{
+
+.howDoesItwork {
     margin-top: 5rem;
     background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.howDoesItwork>h1{
+
+.howDoesItwork>h1 {
     margin-top: 3rem;
     color: #F17228;
     font-weight: 700;
 }
-.howDoesItwork>h1::first-letter{
+
+.howDoesItwork>h1::first-letter {
     text-transform: capitalize;
 }
-.HowDoesItWork-images{
+
+.HowDoesItWork-images {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
-.HowDoesItWork-images-one{
+
+.HowDoesItWork-images-one {
     width: 200px;
     margin-top: 3rem;
     display: flex;
@@ -573,7 +641,8 @@ background: rgba(241, 114, 40, 0.20);
     align-items: center;
     text-align: center;
 }
-.Popularitems{
+
+.Popularitems {
     position: relative;
     margin-top: 3rem;
     display: flex;
@@ -581,58 +650,67 @@ background: rgba(241, 114, 40, 0.20);
     align-items: center;
     gap: 65px;
 }
-.arrowlift{
+
+.arrowlift {
     position: absolute;
     top: 200px;
     left: -55px;
 }
-.arrowright{
+
+.arrowright {
     position: absolute;
     top: 200px;
     right: -55px;
 }
-.Popularitems-content{
+
+.Popularitems-content {
     width: 90%;
     display: flex;
     justify-content: center;
     overflow: hidden;
     gap: 25px;
 }
-.Popularitems-one{
+
+.Popularitems-one {
     width: 230px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.Popularitems-image-cheeseBurger{
+
+.Popularitems-image-cheeseBurger {
     width: 230px;
     height: 230px;
     background-image: url(./img/Rectangle\ 336.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Popularitems-TopSticks{
+
+.Popularitems-TopSticks {
     width: 230px;
     height: 230px;
     background-image: url(./img/Rectangle\ 336\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Popularitems-Dancake{
+
+.Popularitems-Dancake {
     width: 250px;
     height: 230px;
     background-image: url(./img/Rectangle\ 336\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Popularitems-CrispySandwitch{
+
+.Popularitems-CrispySandwitch {
     width: 250px;
     height: 230px;
     background-image: url(./img/Rectangle\ 336\ \(3\).png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.Popularitems-ThaiSoup{
+
+.Popularitems-ThaiSoup {
     width: 230px;
     height: 230px;
     background-image: url(./img/Rectangle\ 336\ \(4\).png);
@@ -640,55 +718,64 @@ background: rgba(241, 114, 40, 0.20);
     background-size: cover;
     border-radius: 8px;
 }
-.my-btn-CheeseBurger{
+
+.my-btn-CheeseBurger {
     width: Fill (283.4px);
-height: 60px;
-padding: 21px, 48px, 21px, 48px;
-border-radius: 8px;
-gap: 10px;
-background-color: #F17228;
-font-family: Source Sans Pro;
-font-size: 18px;
-font-weight: 700;
-line-height: 18px;
-letter-spacing: 0em;
-text-align: center;
-color: #fff;
+    height: 60px;
+    padding: 21px, 48px, 21px, 48px;
+    border-radius: 8px;
+    gap: 10px;
+    background-color: #F17228;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
 }
-.CheeseBurger{
+
+.CheeseBurger {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+
 }
-.CheeseBurger>h1{
+
+.CheeseBurger>h1 {
     font-size: 1.5rem;
 }
-.CheeseBurger>h3{
+
+.CheeseBurger>h3 {
     font-size: 1.2rem;
 }
-.CheeseBurger>h2{
+
+.CheeseBurger>h2 {
     font-size: 1.2rem;
 }
-.FeaturedRestaurants-content{
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
-   margin-top: 3rem;
-   gap: 55px;
+
+.FeaturedRestaurants-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 55px;
 }
-.saleOffer-content{
+
+.saleOffer-content {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
-.saleOffer{
- display: flex;
- flex-direction: column;
- gap: 1rem;
+
+.saleOffer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
-.saleOffer-image{
+
+.saleOffer-image {
     background-image: url(./img/Image\ \(9\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -696,25 +783,31 @@ color: #fff;
     height: 300px;
     border-radius: 10px;
 }
-.saleOffer-image>img{
+
+.saleOffer-image>img {
     margin-top: 1.5rem;
 }
-#saleOfferone{
+
+#saleOfferone {
     margin-left: 1.5rem;
 }
-.resturantLogo{
+
+.resturantLogo {
     display: flex;
 }
-.logo4Heading{
+
+.logo4Heading {
     margin-left: 1rem;
 }
-.logo4Heading>span{
+
+.logo4Heading>span {
     margin-left: 5px;
     font-size: 1.5rem;
     font-weight: 700;
     color: #FFB30E;
 }
-.saleOffer-image-one{
+
+.saleOffer-image-one {
     background-image: url(./img/Image\ \(12\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -722,10 +815,12 @@ color: #fff;
     height: 300px;
     border-radius: 10px;
 }
-.saleOffer-image-one>img{
+
+.saleOffer-image-one>img {
     margin-top: 1.5rem;
 }
-.saleOffer-image-tow{
+
+.saleOffer-image-tow {
     background-image: url(./img/Image\ \(11\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -733,10 +828,12 @@ color: #fff;
     height: 300px;
     border-radius: 10px;
 }
-.saleOffer-image-tow>img{
+
+.saleOffer-image-tow>img {
     margin-top: 1.5rem;
 }
-.saleOffer-image-three{
+
+.saleOffer-image-three {
     background-image: url(./img/Image\ \(10\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -744,15 +841,18 @@ color: #fff;
     height: 300px;
     border-radius: 10px;
 }
-.saleOffer-image-three>img{
+
+.saleOffer-image-three>img {
     margin-top: 1.5rem;
 }
-.resturantOpenNow{
+
+.resturantOpenNow {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
 }
-.saleOffer-image-four{
+
+.saleOffer-image-four {
     background-image: url(./img/Image\ \(8\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -760,42 +860,49 @@ color: #fff;
     height: 300px;
     border-radius: 10px;
 }
-.saleOffer-image-four>img{
+
+.saleOffer-image-four>img {
     margin-top: 1.5rem;
 }
-#viewall-btn{
-    width: 178px;
-height: 60px;
-padding: 21px, 48px, 21px, 48px;
-border-radius: 14px;
-gap: 10px;
-background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
-box-shadow: 0px 20px 40px 0px #FFAE004A;
 
-box-shadow: 0px 5px 10px 0px #FFAE0042;
-margin-top: 5rem;
+#viewall-btn {
+    width: 178px;
+    height: 60px;
+    padding: 21px, 48px, 21px, 48px;
+    border-radius: 14px;
+    gap: 10px;
+    background: linear-gradient(97.86deg, #FFBA26 -8.95%, #FF9A0E 109.24%);
+    box-shadow: 0px 20px 40px 0px #FFAE004A;
+
+    box-shadow: 0px 5px 10px 0px #FFAE0042;
+    margin-top: 5rem;
 }
-.searchByFood{
+
+.searchByFood {
     width: 90%;
 }
-.searchByFood-header{
+
+.searchByFood-header {
     display: flex;
     justify-content: space-between;
     margin-top: 5rem;
     height: 80px;
 }
-.searchByFood-header-second{
+
+.searchByFood-header-second {
     display: flex;
-    
+
 }
-.searchByFood-image-sec{
+
+.searchByFood-image-sec {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
     margin-top: 3rem;
     flex-wrap: wrap;
 }
-.searchByFood-image-no{
+
+.searchByFood-image-no {
     display: flex;
     flex-direction: column;
     align-items: center;
