@@ -44,8 +44,15 @@
     border: none;
     !important
 }
-
+@media screen and (min-width:1121px) {
+    .mobile-navbar{
+        display: none;
+    }
+}
 @media screen and (max-width: 1120px) {
+    .mobile-navbar{
+        display: none;
+    }
     .navbar-brand>img {
         width: 280px;
     }
@@ -79,6 +86,9 @@
 }
 
 @media screen and (max-width: 986px) {
+    .mobile-navbar{
+        display: none;
+    }
     .my-class-navbar {
         display: flex;
         !important flex-wrap: nowrap;
@@ -115,6 +125,14 @@
 
     .my-btn-nav-login>img {
         width: 14px;
+    }
+}
+@media screen and (max-width: 426px) {
+    .mobile-navbar{
+        display: flex;
+    }
+    #mera-navbar{
+        display: none;
     }
 }
 
@@ -411,6 +429,43 @@ background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
         height: 520px;
     }
 }
+@media screen and (max-width: 426px) {
+    .areYouStarving{
+        height: 680px;
+        width: 100%;
+    }
+    .areYouStarving-heading-div{
+        width: 100%;
+    }
+    #findmeals-pera{
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+    }
+    .form-section {
+        width: 320px;
+        margin-top: 0.2rem;
+    }
+    .areYouStarving-form {
+        width:320px;
+        
+    }
+    .areYouStarving-form>input{
+        width: 160px;
+        height: 50px;
+        font-size: 14px;
+        background-position-x: 10px;
+        text-indent: 25px;
+    }
+    .areYouStarving-form>button{
+        width: 135px;
+        height: 50px;
+        gap: 2px;
+        font-size: 14px;
+    padding: 21px 14px;
+    }
+    
+}
 .FoodDiscuontSection{
     height: 500px;
     display: flex;
@@ -486,4 +541,140 @@ align-items: flex-start;
 gap: 10px;
 border-radius: 8px;
 background: rgba(241, 114, 40, 0.20);
+}
+@media screen and (max-width: 426px) {
+    .FoodDiscuontSection{
+    height: 1800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+}
+.howDoesItwork{
+    margin-top: 5rem;
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.howDoesItwork>h1{
+    margin-top: 3rem;
+    text-transform: ;
+    color: #F17228;
+    font-weight: 700;
+}
+.howDoesItwork>h1::first-letter{
+    text-transform: capitalize;
+}
+.HowDoesItWork-images{
+    display: flex;
+    justify-content: center ;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.HowDoesItWork-images-one{
+    width: 200px;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.Popularitems{
+    position: relative;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+.arrowlift{
+    position: absolute;
+    top: 200px;
+    left: 1px;
+}
+.arrowright{
+    position: absolute;
+    top: 200px;
+    right: 1px;
+}
+.Popularitems-content{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.Popularitems-one{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Popularitems-image-cheeseBurger{
+    width: 230px;
+    height: 230px;
+    background-image: url(./img/Rectangle\ 336.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Popularitems-TopSticks{
+    width: 230px;
+    height: 230px;
+    background-image: url(./img/Rectangle\ 336\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Popularitems-Dancake{
+    width: 250px;
+    height: 230px;
+    background-image: url(./img/Rectangle\ 336\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Popularitems-CrispySandwitch{
+    width: 250px;
+    height: 230px;
+    background-image: url(./img/Rectangle\ 336\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Popularitems-ThaiSoup{
+    width: 230px;
+    height: 230px;
+    background-image: url(./img/Rectangle\ 336\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+.my-btn-CheeseBurger{
+    width: Fill (283.4px);
+height: 60px;
+padding: 21px, 48px, 21px, 48px;
+border-radius: 8px;
+gap: 10px;
+background-color: #F17228;
+font-family: Source Sans Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+}
+.CheeseBurger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.CheeseBurger>h1{
+    font-size: 1.5rem;
+}
+.CheeseBurger>h3{
+    font-size: 1.2rem;
+}
+.CheeseBurger>h2{
+    font-size: 1.2rem;
 }

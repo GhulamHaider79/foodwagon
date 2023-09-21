@@ -30,11 +30,55 @@
         </form>
       </div>
     </nav>
+    <nav class="navbar bg-light fixed-top mobile-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="company logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="areYouStarving">
       <div class="areYouStarving-heading-div">
         <div class="areYouStarving-h1">
           <h1>Are you starving?</h1>
-          <p>Within a few clicks, find meals that are accessible near you</p>
+          <p id="findmeals-pera"><span> Within a few clicks, find meals</span> <span> that are accessible near
+              you</span></p>
         </div>
 
         <form class="form-section">
@@ -91,6 +135,93 @@
         </div>
         <h2>Greys Vage</h2>
         <h5>6 Days Remaining</h5>
+      </div>
+    </div>
+    <div class="howDoesItwork">
+      <h1> how does it work</h1>
+      <div class="HowDoesItWork-images">
+
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons.png" alt="Location Icone">
+          <h3>Select location</h3>
+          <p>Check over hundreds of menus to pick your favorite food</p>
+        </div>
+
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (2).png" alt="Location Icone">
+          <h3>Choose order</h3>
+          <p>Check over hundreds of menus to pick your favorite food</p>
+        </div>
+
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (1).png" alt="Location Icone">
+          <h3>Pay advanced</h3>
+          <p>It's quick, safe, and simple. Select several methods of payment</p>
+        </div>
+
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (3).png" alt="Location Icone">
+          <h3>Enjoy meals</h3>
+          <p>Food is made and delivered directly to your home.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Popularitems">
+      <div class="arrowlift"><img src="./img/Arrow Left.png" alt=""></div>
+      <div class="arrowright"><img src="./img/Arrow Right.png" alt=""></div>
+      <h1>Popular items</h1>
+      <div class="Popularitems-content">
+        
+        <div class="Popularitems-one">
+          <div class="Popularitems-image-cheeseBurger">
+             </div>
+           <div class="CheeseBurger">
+            <h1>Cheese Burger</h1>
+            <h3><img src="./img/icon location.png" alt=""> &nbsp;Burger Arena</h3>
+            <h2>$3.88</h2>
+          </div>
+          <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
+        </div>
+
+        <div class="Popularitems-one">
+          <div class="Popularitems-TopSticks"></div>
+           <div class="CheeseBurger">
+            <h1>Toffe’s Cake</h1>
+            <h3><img src="./img/icon location.png" alt=""> &nbsp;Top Sticks</h3>
+            <h2>$4.00</h2>
+          </div>
+          <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
+        </div>
+
+        <div class="Popularitems-one">
+        <div class="Popularitems-Dancake"></div>
+           <div class="CheeseBurger">
+            <h1>Dancake</h1>
+            <h3><img src="./img/icon location.png" alt=""> &nbsp;Cake World</h3>
+            <h2>$1.99</h2>
+          </div>
+          <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
+        </div>
+
+        <div class="Popularitems-one">
+          <div class="Popularitems-CrispySandwitch"></div>
+           <div class="CheeseBurger">
+            <h1>Crispy Sandwitch</h1>
+            <h3><img src="./img/icon location.png" alt=""> &nbsp;Fastfood Dine</h3>
+            <h2>$3.00</h2>
+          </div>
+          <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
+        </div>
+
+        <div class="Popularitems-one">
+          <div class="Popularitems-ThaiSoup"></div>
+           <div class="CheeseBurger">
+            <h1>Thai  Soup</h1>
+            <h3><img src="./img/icon location.png" alt=""> &nbsp;Foody man</h3>
+            <h2>$2.79</h2>
+          </div>
+          <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
+        </div>
+
+
       </div>
     </div>
   </div>
