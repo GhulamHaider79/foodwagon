@@ -466,7 +466,7 @@
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
     .areYouStarving {
         height: 680px;
         width: 100%;
@@ -597,7 +597,11 @@
     border-radius: 8px;
     background: rgba(241, 114, 40, 0.20);
 }
-
+@media screen and (max-width: 768px) {
+    .FoodDiscuontSection{
+        gap: 8.6rem;
+    }
+}
 @media screen and (max-width: 426px) {
     .FoodDiscuontSection {
         height: 1800px;
@@ -964,6 +968,7 @@ background-clip: text;
     align-items: center;
     justify-content: flex-end;
     gap: 15rem;
+    
 }
 #mobile-image-1{
     position: absolute;
@@ -1061,4 +1066,265 @@ background-clip: text;
         text-align: center;
         max-width: 95%;
     }
+}
+.BestDealSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #f6f1e9;
+    padding-bottom: 3rem;
+}
+.BestdealsCrispySandwiches{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  padding-top: 5rem;
+}
+.BestdealsCrispy{
+    width: 54%;
+    height: 350px;
+    background-image: url(./img/Image\ \(19\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 16px 16px 0px;
+
+/* Shadow 2 */
+box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28), 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+
+}
+.BestdealsCrispy-1 {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 16px 0px 0px 16px;
+}
+.BestdealsCrispy-1>h1>span{
+    color: var(--theme-primary, #FFB30E);
+}
+.BestdealsCrispy-1>p{
+    color: rgba(97, 97, 97, 0.69);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.2px;
+}
+.BestdealsCrispy-1>button{
+    display: flex;
+padding: 18px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 8px;
+background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+
+}
+.deltow{
+    border-radius: 0px 16px 16px 0px;
+}
+.BestdealsCrispy-second{
+    width: 50%;
+    height: 350px;
+    background-image: url(./img/Image\ \(18\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 0px 0px 16px;
+
+/* Shadow 2 */
+box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28), 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+
+}
+
+.BestdealsCrispy-three{
+    width: 55%;
+    height: 350px;
+    background-image: url(./img/Image\ \(20\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 16px 16px 0px;
+
+/* Shadow 2 */
+box-shadow: 0px 27px 82px 0px rgba(124, 124, 124, 0.28), 0px 14px 15px 0px rgba(124, 124, 124, 0.06);
+
+}
+@media screen and (max-width: 895px) {
+    .BestdealsCrispySandwiches{
+        flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      width: 100%;
+    }
+    .BestdealsCrispy{
+        border-radius: 16px;
+        width: 85%;
+    }
+    .BestdealsCrispy-1{
+        border-radius: 16px;
+        width: 85%;
+    }
+    .BestdealsCrispy-second{
+        border-radius: 16px;
+        width: 85%;
+    }
+    .BestdealsCrispy-three{
+        border-radius:  16px;
+        width: 85%;
+    }
+}
+.readyToOrder{
+    
+    height: 20rem;
+    background-image: url(./img/Image\ \(21\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.readyToOrder>h1{
+    max-width: 30%;
+}
+.readyToOrder>button{
+    display: flex;
+width: 233px;
+padding: 21px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: linear-gradient(93deg, #F17228 -5.63%, #F15E28 100.8%);
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+    padding: 3rem;
+}
+.footer-main{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-main>hr{
+    color: #565353;
+}
+.footer-header-ourDuties{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.7rem;
+}
+.footer-header-ourDuties>h3{
+    color: #f6f1e9;
+}
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-header>ul>li{
+    list-style: none;
+    color: #f6f1e9;
+}
+.footer-lower{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lower-content{
+    display: flex;
+    justify-content: space-between;
+    color: #f6f1e9;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+.company{
+    display: flex;
+    flex-direction: column;
+  justify-content: flex-start;
+}
+.company>h3{
+    font-size: 1.5rem;
+}
+.company>ul>li{
+    list-style: none;
+}
+.contect>h3{
+    font-size: 1.5rem;
+}
+.contect>ul>li{
+    list-style: none;
+}
+.legal>h3{
+    font-size: 1.5rem;
+}
+.legal>ul>li{
+    list-style: none;
+}
+.lower-second-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.lower-second-content>h3{
+    font-size: 1.5rem;
+    color: #f6f1e9;
+}
+.lower-second-content>h4{
+    font-size: 1rem;
+    color: #f6f1e9;
+}
+.lower-btn{
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+}
+.lower-btn>button{
+    display: flex;
+width: 133px;
+padding: 21px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+}
+.lower-btn>form>input{
+    display: flex;
+padding: 7px 0px 8px 16px;
+align-items: center;
+gap: 10px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 8px;
+background: var(--theme-gray-800, #424242);
+background-image: url(./img/envelope.png);
+background-repeat: no-repeat;
+background-position: left;
+background-position-x: 20px;
+    text-indent: 50px;
+}
+.copyright{
+    color: #f6f1e9;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
