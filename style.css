@@ -654,13 +654,13 @@
 .arrowlift {
     position: absolute;
     top: 200px;
-    left: -55px;
+    left: 1px;
 }
 
 .arrowright {
     position: absolute;
     top: 200px;
-    right: -55px;
+    right: 1px;
 }
 
 .Popularitems-content {
@@ -907,4 +907,147 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+.LiveTracing-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEEFD0;
+    margin-top: 3rem;
+    position: relative;
+}
+.LiveTracing-content{
+    width: 93%;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.DailyDiscountsIcon{
+    width: 6rem;
+}
+.DailyDiscounts{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.DailyDiscounts>p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: ;
+    background: linear-gradient(93deg, #FB3C00 -47.72%, #FFB800 136.81%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.InstalltheApp{
+    display: flex;
+    margin-top: 15rem;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15rem;
+}
+#mobile-image-1{
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    z-index: 1;
+ width: 18rem;
+}
+#mobile-image-2{
+    position: absolute;
+    bottom: 0;
+    left: 250px;
+    width: 18rem;
+    z-index: 2;
+}
+.InstalltheApp-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    gap: 10px;
+   
+}
+.InstalltheApp-text>h1{
+    color: #FB3C00;
+    font-weight: 700;
+}
+.InstalltheApp-text>p{
+    text-align: center;
+    max-width: 60%;
+}
+.InstalltheApp-text-btn{
+    display: flex;
+    gap: 1px;
+}
+.InstalltheApp-text-btn>img{
+    width: 12.5rem;
+}
+@media screen and (max-width: 1072px) {
+    .InstalltheApp{
+        margin-top: 8rem;
+        flex-wrap: wrap-reverse;
+    }
+    #mobile-image-1{
+        position: absolute;
+        bottom: 0;
+        left: 5rem;
+        z-index: 1;
+    width: 12.5rem;
+    }
+    #mobile-image-2{
+        position: absolute;
+        bottom: 0;
+        left: 14.3rem;
+        z-index: 2;
+        width: 12.5rem;
+    }
+    .InstalltheApp-text-btn>img{
+        width: 9.3rem;
+    }
+    
+}
+@media screen and (max-width: 799px) {
+    .InstalltheApp-text{
+        width: 100%;
+
+       
+    }
+    .InstalltheApp-text>p{
+        text-align: center;
+        max-width: 95%;
+    }
+}
+@media screen and (max-width: 466px) {
+    #mobile-image-1{
+        position: absolute;
+        bottom: 0;
+        left: 6rem;
+        z-index: 1;
+    width: 8rem;
+    }
+    #mobile-image-2{
+        position: absolute;
+        bottom: 0;
+        left: 10rem;
+        z-index: 2;
+        width: 8rem;
+    }
+    .InstalltheApp-text{
+        width: 100%;
+
+       
+    }
+    .InstalltheApp-text>p{
+        text-align: center;
+        max-width: 95%;
+    }
 }
