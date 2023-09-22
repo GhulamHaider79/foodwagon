@@ -511,11 +511,12 @@
 }
 
 .FoodDiscuontSection {
-    height: 500px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 0.6rem;
     align-items: center;
+    margin-top: 5rem;
 }
 
 .FoodDiscuontSection-1 {
@@ -609,7 +610,7 @@
 }
 
 .howDoesItwork {
-    margin-top: 5rem;
+    margin-top: 13rem;
     background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
     display: flex;
     flex-direction: column;
@@ -881,19 +882,27 @@
 }
 
 .searchByFood {
-    width: 90%;
+    /*width: 90%;*/
 }
 
 .searchByFood-header {
     display: flex;
     justify-content: space-between;
-    margin-top: 5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 7rem;
     height: 80px;
 }
 
 .searchByFood-header-second {
     display: flex;
-
+ justify-content: center;
+ align-items: center;
+ gap: 2px;
+}
+.searchByFood-header-second-Arrow{
+    width: 100px;
 }
 
 .searchByFood-image-sec {
