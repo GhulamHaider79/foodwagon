@@ -5,11 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FoodWagon Food Delivery</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./boot.css">
 
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -73,6 +70,8 @@
         </div>
       </div>
     </nav>
+
+  <!--yellow div-->
     <div class="areYouStarving">
       <div class="areYouStarving-heading-div">
         <div class="areYouStarving-h1">
@@ -90,16 +89,19 @@
           <input type="search" placeholder=" Enter Your Address ">
           <button type="button" class="form-btnTow"> <img src="./img/Icon (1).png" alt="ordre pickup">Find Food</button>
         </form>
-
       </div>
       <div class=" areYouStarving-image-div"><img src="./img/Image.png" alt=""></div>
     </div>
+
+    <!--yellow div End-->
+
+    <!--Food Discuont Section-->
     <div class="FoodDiscuontSection">
       <div class="FoodDiscuontSection-1">
         <div class="tag1">
           <div class="tag15">
             <h1>15</h1>
-            <p>% <br>off</p>
+            <p class="percentage"> <span>%</span> <br><span>off</span></p>
           </div>
         </div>
         <h2>Greys Vage</h2>
@@ -109,7 +111,7 @@
         <div class="tag2">
           <div class="tag15">
             <h1>10</h1>
-            <p>% <br>off</p>
+            <p class="percentage"><span>%</span> <br><span>off</span></p>
           </div>
         </div>
         <h2>Greys Vage</h2>
@@ -119,24 +121,28 @@
         <div class="tag3">
           <div class="tag15">
             <h1>25</h1>
-            <p>% <br>off</p>
+            <p class="percentage"><span>%</span> <br> <span>off</span></p>
           </div>
 
         </div>
         <h2>Greys Vage</h2>
-        <h5>6 Days Remaining</h5>
+        <h5>7 Days Remaining</h5>
       </div>
       <div class="FoodDiscuontSection-1">
         <div class="tag4">
           <div class="tag15">
             <h1>20</h1>
-            <p>% <br>off</p>
+            <p class="percentage"><span>%</span> <br> <span>off</span></p>
           </div>
         </div>
         <h2>Greys Vage</h2>
-        <h5>6 Days Remaining</h5>
+        <h5>8 Days Remaining</h5>
       </div>
     </div>
+
+    <!--Food Discuont Section-->
+
+    <!--How Does It Works-->
     <div class="howDoesItwork">
       <h1> how does it work</h1>
       <div class="HowDoesItWork-images">
@@ -146,24 +152,26 @@
           <p>Check over hundreds of menus to pick your favorite food</p>
         </div>
 
-        <div class="HowDoesItWork-images-one"><img src="./img/Icons (2).png" alt="Location Icone">
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (2).png" alt="Location Icon">
           <h3>Choose order</h3>
           <p>Check over hundreds of menus to pick your favorite food</p>
         </div>
 
-        <div class="HowDoesItWork-images-one"><img src="./img/Icons (1).png" alt="Location Icone">
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (1).png" alt="Location Icon">
           <h3>Pay advanced</h3>
           <p>It's quick, safe, and simple. Select several methods of payment</p>
         </div>
 
-        <div class="HowDoesItWork-images-one"><img src="./img/Icons (3).png" alt="Location Icone">
+        <div class="HowDoesItWork-images-one"><img src="./img/Icons (3).png" alt="Location icon">
           <h3>Enjoy meals</h3>
           <p>Food is made and delivered directly to your home.</p>
         </div>
 
       </div>
     </div>
+<!--Food Discuont Section End-->
 
+<!--Popular Items section -->
     <div class="Popularitems">
       <div class="arrowlift"><img src="./img/Arrow Left.png" alt=""></div>
       <div class="arrowright"><img src="./img/Arrow Right.png" alt=""></div>
@@ -184,7 +192,7 @@
         <div class="Popularitems-one">
           <div class="Popularitems-TopSticks"></div>
           <div class="CheeseBurger">
-            <h1>Toffe’s Cake</h1>
+            <h1>Toffee Cake</h1>
             <h3><img src="./img/icon location.png" alt=""> &nbsp;Top Sticks</h3>
             <h2>$4.00</h2>
           </div>
@@ -220,11 +228,11 @@
           </div>
           <button type="button" class=" my-btn-CheeseBurger" disabled>Order Now</button>
         </div>
-
-
       </div>
     </div>
+    <!--Popular Items section End-->
 
+    <!--Feature Restaurants section-->
     <div class="FeaturedRestaurants">
       <div class="FeaturedRestaurants-content">
         <h1>Featured Restaurants</h1>
@@ -232,172 +240,182 @@
         <div class="saleOffer-content">
           <div class="saleOffer">
             <div class="saleOffer-image">
-              <img id="saleOfferone" src="./img/Discount (1).png" alt="">
-              <img src="./img/Fast.png" alt="">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>20 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
               <div class="logo4"> <img src="./img/Restaruant Logo (4).png" alt=""></div>
               <div class="logo4Heading">
                 <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>46</span>
+                <span><i class="fa-solid fa-star"></i></span><span>46</span>
               </div>
             </div>
-            <img src="./img/Badge (1).png" alt="">
+            <div class="openNow">Opens tomorrow</div>
           </div>
 
           <div class="saleOffer">
             <div class="saleOffer-image-one">
-              <img id="saleOfferone" src="./img/Discount (3).png" alt="">
-              <img src="./img/Fast.png" alt="">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>15 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
               <div class="logo4"> <img src="./img/Restaruant Logo (5).png" alt=""></div>
               <div class="logo4Heading">
                 <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>40</span>
+                <span><i class="fa-solid fa-star"></i></span><span>40</span>
               </div>
             </div>
-            <img src="./img/Badge (1).png" alt="">
+            <div class="openNow">Opens tomorrow</div>
           </div>
 
           <div class="saleOffer">
             <div class="saleOffer-image-tow">
-              <img id="saleOfferone" src="./img/Discount.png" alt="">
-              <img src="./img/Fast.png" alt="">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>10 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (5).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo (6).png" alt=""></div>
               <div class="logo4Heading">
-                <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>40</span>
+                <h4>Donuts hut</h4>
+                <span><i class="fa-solid fa-star"></i></span><span>40</span>
               </div>
             </div>
-            <img src="./img/Badge (1).png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
 
           <div class="saleOffer">
             <div class="saleOffer-image-three">
-              <img id="saleOfferone" src="./img/Discount (3).png" alt="">
-              <img src="./img/Fast.png" alt="">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>15 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (5).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo (7).png" alt=""></div>
               <div class="logo4Heading">
-                <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>40</span>
+                <h4>Donuts hut</h4>
+                <span><i class="fa-solid fa-star"></i></span><span>40</span>
               </div>
             </div>
-            <img src="./img/Badge (1).png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
         </div>
+        <!--Feature Restaurants section End-->
 
+
+        <!--Resturant OpenNow section-->
         <div class="resturantOpenNow">
           <div class="saleOffer">
             <div class="saleOffer-image-four">
-              <img id="saleOfferone" src="./img/Discount (1).png" alt="">
-              <img src="./img/Fast.png" alt="">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>10 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (4).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo.png" alt=""></div>
               <div class="logo4Heading">
-                <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>46</span>
+                <h4>Ruby Tuesday</h4>
+                <span><i class="fa-solid fa-star"></i></span><span>46</span>
               </div>
             </div>
-            <img src="./img/Badge.png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
           <div class="saleOffer">
-            <div class="saleOffer-image-four">
-              <img id="saleOfferone" src="./img/Discount (1).png" alt="">
-              <img src="./img/Fast.png" alt="">
+            <div class="saleOffer-image-four KuakataFriedChicken">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>25 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (4).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo (1).png" alt=""></div>
               <div class="logo4Heading">
-                <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>46</span>
+                <h4>Kuakata Fried Chicken</h4>
+                <span><i class="fa-solid fa-star"></i></span><span>46</span>
               </div>
             </div>
-            <img src="./img/Badge.png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
           <div class="saleOffer">
-            <div class="saleOffer-image-four">
-              <img id="saleOfferone" src="./img/Discount (1).png" alt="">
-              <img src="./img/Fast.png" alt="">
+            <div class="saleOffer-image-four RedSquare">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>10 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (4).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo (2).png" alt=""></div>
               <div class="logo4Heading">
-                <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>46</span>
+                <h4>Red Square</h4>
+                <span><i class="fa-solid fa-star"></i></span><span>46</span>
               </div>
             </div>
-            <img src="./img/Badge.png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
           <div class="saleOffer">
-            <div class="saleOffer-image-four">
-              <img id="saleOfferone" src="./img/Discount (1).png" alt="">
-              <img src="./img/Fast.png" alt="">
+            <div class="saleOffer-image-four TacoBell">
+              <div class="Saleoffer-off-tag"><span><i class="fa-solid fa-tag"></i></span><span>10 % off</span></div>
+              <div class="Saleoffer-off-tag-fast"><span><i class="fa-solid fa-clock"></i></span><span>Fast</span></div>
             </div>
             <div class="resturantLogo">
-              <div class="logo4"> <img src="./img/Restaruant Logo (4).png" alt=""></div>
+              <div class="logo4"> <img src="./img/Restaruant Logo (3).png" alt=""></div>
               <div class="logo4Heading">
                 <h4>Foodworld</h4>
-                <img src="./img/Icon (3).png" alt=""><span>46</span>
+                <span><i class="fa-solid fa-star"></i></span><span>46</span>
               </div>
             </div>
-            <img src="./img/Badge.png" alt="">
+            <div class="openNow tom">Opens Now</div>
           </div>
         </div>
         <button id="viewall-btn">View All</button>
       </div>
 
     </div>
+    <!--Resturant OpenNow section-->
 
+
+    <!--Search By Food section-->
     <div class="searchByFood">
-      <div+ class="searchByFood-header">
-        <div>
-          <h2>Search by Food</h2>
-        </div>
-        <div class="searchByFood-header-second">
-          <div>
-            <p>View All</p>
-          </div> &nbsp;
-          <div> <img src="./img/Icon (5).png" alt=""></div>
-          <div>
-            <img class="searchByFood-header-second-Arrow" src="./img/Arrow Left.png" alt="">
-            <img class="searchByFood-header-second-Arrow" src="./img/Arrow Right.png" alt="">
-          </div>
-        </div>
-    </div>
-
     <div class="searchByFood-image-sec">
       <div class="searchByFood-image-no">
-        <img src="./img/Food Photo.png" alt="">
-        <h6>Pizza</h6>
+        <div class="pizza"></div>
+        <h4>Pizza</h4>
       </div>
 
       <div class="searchByFood-image-no">
-        <img src="./img/Food Photo.png" alt="">
-        <h6>Pizza</h6>
+        <div class=" Burger"></div>
+        <h4>Burger</h4>
       </div>
 
       <div class="searchByFood-image-no">
-        <img src="./img/Food Photo.png" alt="">
-        <h6>Pizza</h6>
+        <div class="Noodles"></div>
+        <h4>Noodles</h4>
       </div>
 
       <div class="searchByFood-image-no">
-        <img src="./img/Food Photo.png" alt="">
-        <h6>Pizza</h6>
+        <div class="Sub-sandiwch"></div>
+        <h4>Sub-sandiwch</h4>
       </div>
 
       <div class="searchByFood-image-no">
-        <img src="./img/Food Photo.png" alt="">
-        <h6>Pizza</h6>
+        <div class="Chowmein"></div>
+        <h4>Chowmein</h4>
+      </div>
+
+      <div class="searchByFood-image-no">
+        <div class="Steak"></div>
+        <h4>Steak</h4>
       </div>
     </div>
 
+    <div class="searchByFood-header">
+      <div>
+        <h2>Search by Food</h2>
+      </div>
+      <div class="searchByFood-header-second">
+        <div>
+          <p>View All <span><i class="fa-solid fa-angle-right"></i></span></p>
+        </div> 
+        
+        <div>
+         <button class="SearchByFood-btn"> <i class="fa-solid fa-angle-left"></i></button>
+         <button class="SearchByFood-btn"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+      </div>
+  </div>
   </div>
 
   <div class="LiveTracing-container container-xxl">
@@ -540,6 +558,7 @@
 
           <div class="legal">
             <h3>Legal</h3>
+            
             <ul>
               <li>Terms & Conditions</li>
               <li>Refund & Cancellation</li>

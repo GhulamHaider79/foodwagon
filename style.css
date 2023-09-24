@@ -1,8 +1,17 @@
-.my-class-navbar,
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./fonts/SourceSans3-VariableFont_wght.ttf);
+}
+*{
+    font-family: Source Sans Pro;
+}
 #mera-navbar {
     background-color: #ffffff;
-}
 
+}
+.my-class-navbar > a{
+    width: 18%;
+}
 .middel-nav>p {
     display: flex;
     align-items: center;
@@ -92,7 +101,7 @@
     }
 
     .navbar-brand>img {
-        width: 280px;
+        width: 250px;
     }
 
     .my-btn-nav-search {
@@ -102,13 +111,13 @@
     }
 
     .my-btn-nav-login {
-        width: 100px;
+        width: 90px;
         gap: 6px;
     }
 
     .middel-nav>p {
-        font-size: 12px;
-        gap: 4px;
+        font-size: 10px;
+        gap: 4.5px;
     }
 
     .middel-nav>p>img {
@@ -116,17 +125,17 @@
     }
 
     .my-btn-nav-search>img {
-        width: 16px;
+        width: 15px;
     }
 
     .my-btn-nav-login>img {
-        width: 14px;
+        width: 13px;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 767px) {
     .mobile-navbar {
-        display: flex;
+        display: block;
     }
 
     #mera-navbar {
@@ -514,14 +523,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.6rem;
+    gap: 0.8rem;
     align-items: center;
     margin-top: 5rem;
 }
 
 .FoodDiscuontSection-1 {
-    width: 300px;
-    height: 300px;
+    width: 290px;
+    height: 290px;
 }
 
 .tag1 {
@@ -534,7 +543,8 @@
 }
 
 .tag15 {
-    width: 110px;
+    width: 130px;
+    height: 75px;
     background-color: #FFB30E;
     border-radius: 0px 32px 0px 20px;
     display: flex;
@@ -552,11 +562,19 @@
 }
 
 .tag15>p {
-    font-size: 1.5rem;
-    line-height: 22px;
+    font-size: 2rem;
+    line-height: 15px;
     padding-top: 4px;
+    font-weight: 400;
 }
-
+.percentage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  gap: 0px;
+    margin-top: 0.5rem;
+  
+}
 .tag2 {
     height: 300px;
     background-image: url(./img/Image\ \(2\).png);
@@ -585,17 +603,22 @@
 }
 
 .FoodDiscuontSection-1>h2 {
-    margin-top: 2rem;
+    margin-top: 1.2rem;
 }
 
 .FoodDiscuontSection-1>h5 {
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     display: flex;
     padding: 8px 16px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background: rgba(241, 114, 40, 0.20);
+}
+@media screen and (max-width: 1266px) {
+    .FoodDiscuontSection{
+        gap: 8.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -660,14 +683,20 @@
 
 .arrowlift {
     position: absolute;
-    top: 200px;
-    left: 1px;
+    top: 180px;
+    left: 0;
+}
+.arrowlift>img{
+    width: 100px;
 }
 
 .arrowright {
     position: absolute;
-    top: 200px;
-    right: 1px;
+    top: 180px;
+    right: 0;
+}
+.arrowright>img{
+    width: 100px;
 }
 
 .Popularitems-content {
@@ -675,55 +704,60 @@
     display: flex;
     justify-content: center;
     overflow: hidden;
-    gap: 25px;
+    gap: 32px;
 }
 
 .Popularitems-one {
-    width: 230px;
+    width: 200px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.8rem;
 }
 
 .Popularitems-image-cheeseBurger {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     background-image: url(./img/Rectangle\ 336.png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
 }
 
 .Popularitems-TopSticks {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     background-image: url(./img/Rectangle\ 336\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
 }
 
 .Popularitems-Dancake {
-    width: 250px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     background-image: url(./img/Rectangle\ 336\ \(2\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
 }
 
 .Popularitems-CrispySandwitch {
-    width: 250px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     background-image: url(./img/Rectangle\ 336\ \(3\).png);
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 16px;
 }
 
 .Popularitems-ThaiSoup {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     background-image: url(./img/Rectangle\ 336\ \(4\).png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
+    border-radius: 16px;
 }
 
 .my-btn-CheeseBurger {
@@ -761,6 +795,7 @@
     font-size: 1.2rem;
 }
 
+/* Featured Restaurants*/
 .FeaturedRestaurants-content {
     width: 100%;
     display: flex;
@@ -790,14 +825,43 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    display: flex;
+    position: relative;
 }
 
-.saleOffer-image>img {
-    margin-top: 1.5rem;
+.Saleoffer-off-tag{
+    width: 130px;
+    height: 40px;
+    background-color: #F17228;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Source Sans Pro;
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
 }
-
-#saleOfferone {
-    margin-left: 1.5rem;
+.Saleoffer-off-tag-fast{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    font-family: Source Sans Pro;
+    background-color: #FFB30E;
+    position: absolute;
+    top: 2.5rem;
+    left: 9.5rem;
 }
 
 .resturantLogo {
@@ -807,12 +871,31 @@
 .logo4Heading {
     margin-left: 1rem;
 }
-
-.logo4Heading>span {
-    margin-left: 5px;
-    font-size: 1.5rem;
-    font-weight: 700;
+.logo4Heading>span{
     color: #FFB30E;
+    font-size: 22px;
+    font-weight: 900;
+    margin-left: 2px;
+}
+.openNow{
+    width: 16.5rem;
+    height: 4rem;
+    border-radius: 16px;
+    background: rgba(241, 114, 40, 0.20);
+    display: flex;
+    padding: 8px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  
+    line-height: 26px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #F17228;
+}
+.tom{
+    width: 200px;
+    background: rgba(121, 185, 60, 0.20);
+    color: #79B93C;
 }
 
 .saleOffer-image-one {
@@ -822,12 +905,9 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    display: flex;
+    position: relative;
 }
-
-.saleOffer-image-one>img {
-    margin-top: 1.5rem;
-}
-
 .saleOffer-image-tow {
     background-image: url(./img/Image\ \(11\).png);
     background-repeat: no-repeat;
@@ -835,11 +915,10 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    display: flex;
+    position: relative;
 }
 
-.saleOffer-image-tow>img {
-    margin-top: 1.5rem;
-}
 
 .saleOffer-image-three {
     background-image: url(./img/Image\ \(10\).png);
@@ -848,10 +927,8 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
-}
-
-.saleOffer-image-three>img {
-    margin-top: 1.5rem;
+    display: flex;
+    position: relative;
 }
 
 .resturantOpenNow {
@@ -868,10 +945,26 @@
     width: 300px;
     height: 300px;
     border-radius: 10px;
+    display: flex;
+    position: relative;
 }
-
-.saleOffer-image-four>img {
-    margin-top: 1.5rem;
+.KuakataFriedChicken{
+    background-image: url(./img/Image\ \(13\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo4Heading > h4{
+    font-size: 22px;
+}
+.RedSquare{
+    background-image: url(./img/Image\ \(7\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TacoBell{
+    background-image: url(./img/Image\ \(15\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #viewall-btn {
@@ -888,7 +981,7 @@
 }
 
 .searchByFood {
-    /*width: 90%;*/
+    width: 100%;
 }
 
 .searchByFood-header {
@@ -897,7 +990,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 1rem;
-    margin-top: 7rem;
+    margin-top: 3rem;
     height: 80px;
 }
 
@@ -905,18 +998,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 2rem;
 }
-
-.searchByFood-header-second-Arrow {
-    width: 100px;
+.searchByFood-header-second > div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.searchByFood-header-second > div > p{
+    color: #FFB30E;
+    font-size: 18px;
+}
+.SearchByFood-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 2rem;
+    border: 1px solid #FAAA01;
+    background-color: #FFB30E;
+    color: #fff;
 }
 
 .searchByFood-image-sec {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
-    margin-top: 3rem;
+    margin-top: 6rem;
     flex-wrap: wrap;
 }
 
@@ -924,9 +1031,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
-
+.pizza, .Burger,.Noodles,.Sub-sandiwch,.Chowmein,.Steak{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(./img/Image\ \(22\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Burger{
+background-image: url(./img/Image\ \(23\).png);
+}
+.Noodles{
+    background-image: url(./img/Image\ \(24\).png);
+}
+.Sub-sandiwch{
+    background-image: url(./img/Image\ \(25\).png);
+}
+.Chowmein{
+    background-image: url(./img/Image\ \(26\).png);
+}
+.Steak{
+    background-image: url(./img/Image\ \(27\).png);
+}
 .LiveTracing-container {
     display: flex;
     flex-direction: column;
